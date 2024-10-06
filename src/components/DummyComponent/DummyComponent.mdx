@@ -1,0 +1,25 @@
+import { Meta, ArgTypes } from '@storybook/blocks'
+import DummyComponent from '@/components/DummyComponent/DummyComponent.vue'
+import * as Stories from './DummyComponent.stories.ts'
+import {
+  ComponentSummary,
+  CustomTypes,
+  ComponentDependency,
+  Examples,
+  ExampleGroup
+} from '/.storybook/DocBlocks'
+
+<Meta title="DummyComponent Document" of={Stories} component={DummyComponent} />
+
+<ComponentSummary of={Stories} />
+
+<ArgTypes of={Stories} />
+
+<CustomTypes of={Stories} />
+
+<ComponentDependency of={Stories} />
+
+
+<Examples>
+  # TODO: define example groups
+</Examples>
