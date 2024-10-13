@@ -39,6 +39,9 @@ defineExpose({
 
 <!-- TODO: define styles -->
 <style scoped>
+.dummy {
+  background-color: red;
+}
 </style>
 
 <!-- TODO: define internationalization strings -->

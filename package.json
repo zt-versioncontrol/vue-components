@@ -1,8 +1,21 @@
 {
-  "name": "zt-vue-library",
+  "name": "@zt/zt-vue-library",
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "files": ["dist"],
+  "main": "./dist/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "url": "https://github.com/zt-versioncontrol/zt-vue-library"
+  }, 
   "scripts": {
     "dev": "storybook dev -p 8000",
     "format:write": "prettier --write src/",
@@ -12,6 +25,9 @@
     "test": "vitest --run"
   },
   "dependencies": {
+    "vue": "^3.4.29"
+  },
+  "peerDependencies": {
     "vue": "^3.4.29"
   },
   "devDependencies": {
