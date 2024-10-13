@@ -1,5 +1,5 @@
 {
-  "name": "@zt/zt-vue-library",
+  "name": "@zt/vue-components",
   "version": "0.0.1",
   "private": false,
   "type": "module",
@@ -14,7 +14,7 @@
     "registry": "https://npm.pkg.github.com"
   },
   "repository": {
-    "url": "https://github.com/zt-versioncontrol/zt-vue-library"
+    "url": "https://github.com/zt-versioncontrol/vue-components"
   }, 
   "scripts": {
     "dev": "storybook dev -p 8000",
