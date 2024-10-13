@@ -1,7 +1,7 @@
 {
   "name": "@zt/zt-vue-library",
   "version": "0.0.0",
-  "private": true,
+  "private": false,
   "type": "module",
   "files": ["dist"],
   "main": "./dist/index.js",
