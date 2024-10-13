@@ -1,6 +1,6 @@
 {
   "name": "@zt/zt-vue-library",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": false,
   "type": "module",
   "files": ["dist"],
