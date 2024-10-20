@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Default component > should match snapshot 1`] = `
+<h1
+  data-v-2eea0293=""
+>
+  DummyComponent - waiting for implementation
+</h1>
+`;
