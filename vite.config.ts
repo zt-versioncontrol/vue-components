@@ -27,16 +27,16 @@ export default defineConfig({
       external: [
         'vue'
       ],
-      // TODO: is this necessary?
-      // output: {
-      //   // TODO: check if this is needed
-      //   // intro: 'import "./style.css";',
+      
+       output: {
+        // this for importing css into index.js 
+        intro: 'import "./style.css";',
       //   //todo: is this necessary
       //   globals: {
       //     // TODO: should it be upper case?
       //     vue: 'vue',
       //   }
-      // }
+      }
     }
   }
 })

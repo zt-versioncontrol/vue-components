@@ -17,6 +17,7 @@
     "url": "https://github.com/zt-versioncontrol/vue-components"
   }, 
   "scripts": {
+    "build": "vite build",
     "dev": "storybook dev -p 8000",
     "format:write": "prettier --write src/",
     "format:check": "prettier --check src/",
