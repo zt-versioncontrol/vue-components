@@ -17,6 +17,7 @@ jobs:
           node-version: 20
       # currently not in use
       # - run: npm ci
+      - run: npm install
       - run: npm test
 
   publish-gpr:
@@ -33,6 +34,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       # currently not in use
       # - run: npm ci
+      - run: npm install
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
