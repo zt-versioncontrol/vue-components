@@ -34,7 +34,7 @@ defineExpose({
 
 <!-- TODO: define component template -->
 <template>
-  <h1>DummyComponent - waiting for implementation</h1>
+  <h1>DummyComponent - waiting for implementation v0.0.8</h1>
 </template>
 
 <!-- TODO: define styles -->
