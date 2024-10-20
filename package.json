@@ -1,6 +1,6 @@
 {
   "name": "@zt-versioncontrol/vue-components",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "type": "module",
   "files": ["dist"],
@@ -23,6 +23,7 @@
     "format:check": "prettier --check src/",
     "generate": "node ./.component-generator/componentGenerator.cjs",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "storybook:build" : "storybook build -o storybook-static/",
     "test": "vitest --run"
   },
   "dependencies": {

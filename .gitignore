@@ -33,3 +33,4 @@ coverage
 
 .npmrc
 *.tgz
+storybook-static
