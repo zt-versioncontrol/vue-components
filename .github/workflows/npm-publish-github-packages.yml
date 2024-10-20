@@ -18,7 +18,7 @@ jobs:
       # currently not in use
       # - run: npm ci
       - run: npm install
-      - run: npm test
+      - run: npm install; npm test
 
   publish-gpr:
     needs: build
