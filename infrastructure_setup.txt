@@ -33,6 +33,7 @@ basic configuration for build and publish to github registry:
     a054698d5922ac2cbdd56dc663c799969f243718,
     a634c774d22328c24927fd0806254d710cd55011,
     af1933e6db67167ca920dab779c24fa0bc5935b0,
-    9d3c8e573ff2ad81fb348dceb7cb7050ddb2bf8e
+    9d3c8e573ff2ad81fb348dceb7cb7050ddb2bf8e,
+    9fa4b9e5fadb947288c4f77ea0268bba0224ef69
   ]
 
