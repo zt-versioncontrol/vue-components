@@ -19,6 +19,7 @@ jobs:
       # - run: npm ci
       - run: npm install
       - run: npm test
+      - run: npm run build
 
   publish-gpr:
     needs: build
@@ -34,7 +35,6 @@ jobs:
           registry-url: https://npm.pkg.github.com/
       # currently not in use
       # - run: npm ci
-      - run: npm install
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
