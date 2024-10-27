@@ -4,6 +4,6 @@ exports[`Default component > should match snapshot 1`] = `
 <h1
   data-v-2eea0293=""
 >
-  DummyComponent - waiting for implementation v0.0.9
+  DummyComponent - waiting for implementation v0.0.12
 </h1>
 `;
